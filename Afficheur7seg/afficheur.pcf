@@ -1,0 +1,22 @@
+//! **************************************************************************
+// Written by: Map O.40d on Thu Mar 03 10:25:28 2016
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "affich<6>" LOCATE = SITE "L18" LEVEL 1;
+COMP "an<0>" LOCATE = SITE "F17" LEVEL 1;
+COMP "an<1>" LOCATE = SITE "H17" LEVEL 1;
+COMP "an<2>" LOCATE = SITE "C18" LEVEL 1;
+COMP "an<3>" LOCATE = SITE "F15" LEVEL 1;
+COMP "data<0>" LOCATE = SITE "L14" LEVEL 1;
+COMP "data<1>" LOCATE = SITE "L13" LEVEL 1;
+COMP "data<2>" LOCATE = SITE "N17" LEVEL 1;
+COMP "data<3>" LOCATE = SITE "R17" LEVEL 1;
+COMP "affich<0>" LOCATE = SITE "H14" LEVEL 1;
+COMP "affich<1>" LOCATE = SITE "J17" LEVEL 1;
+COMP "affich<2>" LOCATE = SITE "G14" LEVEL 1;
+COMP "affich<3>" LOCATE = SITE "D16" LEVEL 1;
+COMP "affich<4>" LOCATE = SITE "D17" LEVEL 1;
+COMP "affich<5>" LOCATE = SITE "F18" LEVEL 1;
+SCHEMATIC END;
+

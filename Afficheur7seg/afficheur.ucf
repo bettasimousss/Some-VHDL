@@ -1,0 +1,17 @@
+NET "affich[6]" LOC=L18;
+NET "affich[5]" LOC=F18;
+NET "affich[4]" LOC=D17;
+NET "affich[3]" LOC=D16;
+NET "affich[2]" LOC=G14;
+NET "affich[1]" LOC=J17;
+NET "affich[0]" LOC=H14;
+
+NET "data[3]" LOC=R17;
+NET "data[2]" LOC=N17;
+NET "data[1]" LOC=L13;
+NET "data[0]" LOC=L14;
+
+NET "an[3]" LOC=F15;
+NET "an[2]" LOC=C18;
+NET "an[1]" LOC=H17;
+NET "an[0]" LOC=F17;

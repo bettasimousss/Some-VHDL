@@ -1,0 +1,64 @@
+#-----------------------------------------------------------
+# PlanAhead v13.1
+# Build 117799 by hdbuild on Thu Feb 17 11:38:00 PST 2011
+# Start of session at: Thu Mar 03 10:16:09 2016
+# Process ID: 3404
+# Log file: D:/BENSI/Afficheur7seg/planAhead_run_1/planAhead.log
+# Journal file: D:/BENSI/Afficheur7seg/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+INFO: [HD-Licensing 0] Attempting to get a license: PlanAhead
+INFO: [HD-Licensing 1] Got a license: PlanAhead
+INFO: [HD-Licensing 3] Your PlanAhead license expires in -397 day(s)
+INFO: [HD-ArchReader 0] Loading parts and site information from C:\Xilinx\13.1x\ISE_DS\PlanAhead\parts\arch.xml
+INFO: [HD-RTPRIM 0] Parsing RTL primitives file 'C:\Xilinx\13.1x\ISE_DS\PlanAhead\parts\xilinx\rtl\prims\rtl_prims.xml'
+INFO: [HD-RTPRIM 1] Finished Parsing RTL primitives file 'C:\Xilinx\13.1x\ISE_DS\PlanAhead\parts\xilinx\rtl\prims\rtl_prims.xml'
+start_gui -source D:/BENSI/Afficheur7seg/pa.fromNetlist.tcl
+# create_project -name Afficheur7seg -dir "D:/BENSI/Afficheur7seg/planAhead_run_1" -part xc3s500efg320-4
+Parsing template File [C:\Xilinx\13.1x\ISE_DS\ISE\data\projnav\templates\verilog.xml].
+Finished parsing template File [C:\Xilinx\13.1x\ISE_DS\ISE\data\projnav\templates\verilog.xml].
+Parsing template File [C:\Xilinx\13.1x\ISE_DS\ISE\data\projnav\templates\vhdl.xml].
+Finished parsing template File [C:\Xilinx\13.1x\ISE_DS\ISE\data\projnav\templates\vhdl.xml].
+Parsing template File [C:\Xilinx\13.1x\ISE_DS\ISE\data\projnav\templates\ucf.xml].
+Finished parsing template File [C:\Xilinx\13.1x\ISE_DS\ISE\data\projnav\templates\ucf.xml].
+# set_property design_mode GateLvl [get_property srcset [current_run -impl]]
+# set_property edif_top_file "D:/BENSI/Afficheur7seg/afficheur.ngc" [ get_property srcset [ current_run ] ]
+# add_files -norecurse { {D:/BENSI/Afficheur7seg} }
+# set_param project.pinAheadLayout  yes
+# set_param project.paUcfFile  "afficheur.ucf"
+# add_files "afficheur.ucf" -fileset [get_property constrset [current_run]]
+# open_netlist_design
+INFO: Design is defaulting to constrset part: xc3s500efg320-4
+Release 13.1 - ngc2edif O.40d (nt)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+
+Release 13.1 - ngc2edif O.40d (nt)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+Reading design afficheur.ngc ...
+WARNING:NetListWriters:298 - No output is written to afficheur.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file afficheur.edif ...
+ngc2edif: Total memory usage is 61148 kilobytes
+
+Parsing EDIF File [.\.Xil-PlanAhead-3404-mpe-PC\ngc2edif\afficheur.edif]
+Finished Parsing EDIF File [.\.Xil-PlanAhead-3404-mpe-PC\ngc2edif\afficheur.edif]
+INFO: [HD-ArchReader 18] Reading macro library C:/Xilinx/13.1x/ISE_DS/PlanAhead/./parts/xilinx/spartan3e/spartan3e/hd_int_macros.edn
+Parsing EDIF File [C:/Xilinx/13.1x/ISE_DS/PlanAhead/./parts/xilinx/spartan3e/spartan3e/hd_int_macros.edn]
+Finished Parsing EDIF File [C:/Xilinx/13.1x/ISE_DS/PlanAhead/./parts/xilinx/spartan3e/spartan3e/hd_int_macros.edn]
+INFO: [HD-ArchReader 7] Loading clock regions from C:/Xilinx/13.1x/ISE_DS/PlanAhead/parts/xilinx/spartan3e/spartan3e/xc3s500e/ClockRegion.xml
+INFO: [HD-ArchReader 8] Loading clock buffers from C:/Xilinx/13.1x/ISE_DS/PlanAhead/parts/xilinx/spartan3e/spartan3e/xc3s500e/ClockBuffers.xml
+INFO: [HD-ArchReader 3] Loading package from C:/Xilinx/13.1x/ISE_DS/PlanAhead/parts/xilinx/spartan3e/spartan3e/xc3s500e/fg320/Package.xml
+INFO: [HD-ArchReader 4] Loading io standards from C:/Xilinx/13.1x/ISE_DS/PlanAhead/./parts/xilinx/spartan3e/IOStandards.xml
+INFO: [HD-ArchReader 5] Loading pkg sso from C:/Xilinx/13.1x/ISE_DS/PlanAhead/parts/xilinx/spartan3e/spartan3e/xc3s500e/fg320/SSORules.xml
+INFO: [HD-GDRC 0] Loading list of drcs for the architecture : C:/Xilinx/13.1x/ISE_DS/PlanAhead/./parts/xilinx/spartan3e/spartan3e/drc.xml
+INFO: [HD-LIB 0] Reading timing library C:/Xilinx/13.1x/ISE_DS/PlanAhead/parts/xilinx/spartan3e/spartan3e/spartan3e-4.lib .
+INFO: [HD-LIB 1] Done reading timing library C:/Xilinx/13.1x/ISE_DS/PlanAhead/parts/xilinx/spartan3e/spartan3e/spartan3e-4.lib .
+Parsing UCF File [D:\BENSI\Afficheur7seg\afficheur.ucf]
+Finished Parsing UCF File [D:\BENSI\Afficheur7seg\afficheur.ucf]
+Time (s): 5.842w
+Time (s): 8.977w
+exit
+INFO: [HD-Application 0] Exiting PlanAhead...
+INFO: [HD-Licensing 2] Releasing license: PlanAhead

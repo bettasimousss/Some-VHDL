@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=D:\BENSI\Afficheur7seg\afficheur.ncd
+OUTFILE=D:\BENSI\Afficheur7seg\afficheur.bit
+FAMILY=Spartan3E
+PART=xc3s500e-4fg320
+WORKINGDIR=D:\BENSI\Afficheur7seg
+LICENSE=WebPack
+USER_INFO=210818297_0_0_559

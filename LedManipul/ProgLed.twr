@@ -1,0 +1,94 @@
+--------------------------------------------------------------------------------
+Release 13.1 Trace  (nt)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\13.1x\ISE_DS\ISE\bin\nt\unwrapped\trce.exe -intstyle ise -v 3 -s 2 -n
+3 -fastpaths -xml ProgLed.twx ProgLed.ncd -o ProgLed.twr ProgLed.pcf -ucf
+ProgLed.ucf
+
+Design file:              ProgLed.ncd
+Physical constraint file: ProgLed.pcf
+Device,package,speed:     xc6slx16,csg324,C,-2 (PRODUCTION 1.17 2011-02-03)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Setup/Hold to clock con
+------------+------------+------------+------------+------------+------------------+--------+
+            |Max Setup to|  Process   |Max Hold to |  Process   |                  | Clock  |
+Source      | clk (edge) |   Corner   | clk (edge) |   Corner   |Internal Clock(s) | Phase  |
+------------+------------+------------+------------+------------+------------------+--------+
+data<0>     |   -2.880(F)|      FAST  |    6.351(F)|      SLOW  |con_IBUF_BUFG     |   0.000|
+data<1>     |   -2.912(F)|      FAST  |    6.348(F)|      SLOW  |con_IBUF_BUFG     |   0.000|
+data<2>     |   -2.943(F)|      FAST  |    6.414(F)|      SLOW  |con_IBUF_BUFG     |   0.000|
+data<3>     |   -2.857(F)|      FAST  |    6.293(F)|      SLOW  |con_IBUF_BUFG     |   0.000|
+data<4>     |   -2.888(F)|      FAST  |    6.359(F)|      SLOW  |con_IBUF_BUFG     |   0.000|
+data<5>     |   -2.917(F)|      FAST  |    6.353(F)|      SLOW  |con_IBUF_BUFG     |   0.000|
+data<6>     |   -1.075(F)|      FAST  |    3.856(F)|      SLOW  |con_IBUF_BUFG     |   0.000|
+------------+------------+------------+------------+------------+------------------+--------+
+
+Clock con to Pad
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                  | Clock  |
+Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s) | Phase  |
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+affich<0>   |        15.900(F)|      SLOW  |         7.325(F)|      FAST  |con_IBUF_BUFG     |   0.000|
+affich<1>   |        16.206(F)|      SLOW  |         7.588(F)|      FAST  |con_IBUF_BUFG     |   0.000|
+affich<2>   |        16.164(F)|      SLOW  |         7.596(F)|      FAST  |con_IBUF_BUFG     |   0.000|
+affich<3>   |        16.265(F)|      SLOW  |         7.629(F)|      FAST  |con_IBUF_BUFG     |   0.000|
+affich<4>   |        16.236(F)|      SLOW  |         7.597(F)|      FAST  |con_IBUF_BUFG     |   0.000|
+affich<5>   |        16.592(F)|      SLOW  |         7.809(F)|      FAST  |con_IBUF_BUFG     |   0.000|
+affich<6>   |        12.044(F)|      SLOW  |         5.499(F)|      FAST  |con_IBUF_BUFG     |   0.000|
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+con            |LED<0>         |   15.517|
+con            |LED<1>         |   15.134|
+con            |LED<2>         |   15.522|
+con            |LED<3>         |   15.198|
+con            |LED<4>         |   14.656|
+con            |LED<5>         |   14.395|
+con            |LED<6>         |   13.688|
+con            |an<0>          |   13.253|
+data<0>        |LED<0>         |    9.685|
+data<1>        |LED<1>         |    9.544|
+data<2>        |LED<2>         |   10.212|
+data<3>        |LED<3>         |   10.220|
+data<4>        |LED<4>         |    9.111|
+data<5>        |LED<5>         |    9.016|
+data<6>        |LED<6>         |    9.315|
+---------------+---------------+---------+
+
+
+Analysis completed Thu Mar 10 10:15:44 2016 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 147 MB
+
+
+

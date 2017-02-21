@@ -1,0 +1,3 @@
+xst -intstyle ise -ifn "D:/BENSI/ADD/ENTITY1.xst" -ofn "D:/BENSI/ADD/ENTITY1.syr" 
+xst -intstyle ise -ifn "D:/BENSI/ADD/ENTITY1.xst" -ofn "D:/BENSI/ADD/ENTITY1.syr" 
+xst -intstyle ise -ifn "D:/BENSI/ADD/ENTITY1.xst" -ofn "D:/BENSI/ADD/ENTITY1.syr" 

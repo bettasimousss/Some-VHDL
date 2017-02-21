@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# PlanAhead v13.1
+# Build 117799 by hdbuild on Thu Feb 17 11:38:00 PST 2011
+# Start of session at: Thu Mar 10 10:09:13 2016
+# Process ID: 480
+# Log file: D:/BENSI/LedManipul/planAhead_run_1/planAhead.log
+# Journal file: D:/BENSI/LedManipul/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui -source D:/BENSI/LedManipul/pa.fromHdl.tcl
+exit

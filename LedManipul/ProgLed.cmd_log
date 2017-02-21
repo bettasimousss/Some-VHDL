@@ -1,0 +1,85 @@
+xst -intstyle ise -ifn "D:/BENSI/LedManipul/ProgLed.xst" -ofn "D:/BENSI/LedManipul/ProgLed.syr" 
+xst -intstyle ise -ifn "D:/BENSI/LedManipul/ProgLed.xst" -ofn "D:/BENSI/LedManipul/ProgLed.syr" 
+xst -intstyle ise -ifn "D:/BENSI/LedManipul/ProgLed.xst" -ofn "D:/BENSI/LedManipul/ProgLed.syr" 
+xst -intstyle ise -ifn "D:/BENSI/LedManipul/ProgLed.xst" -ofn "D:/BENSI/LedManipul/ProgLed.syr" 
+xst -intstyle ise -ifn "D:/BENSI/LedManipul/ProgLed.xst" -ofn "D:/BENSI/LedManipul/ProgLed.syr" 
+xst -intstyle ise -ifn "D:/BENSI/LedManipul/ProgLed.xst" -ofn "D:/BENSI/LedManipul/ProgLed.syr" 
+xst -intstyle ise -ifn "D:/BENSI/LedManipul/ProgLed.xst" -ofn "D:/BENSI/LedManipul/ProgLed.syr" 
+xst -intstyle ise -ifn "D:/BENSI/LedManipul/ProgLed.xst" -ofn "D:/BENSI/LedManipul/ProgLed.syr" 
+xst -intstyle ise -ifn "D:/BENSI/LedManipul/ProgLed.xst" -ofn "D:/BENSI/LedManipul/ProgLed.syr" 
+xst -intstyle ise -ifn "D:/BENSI/LedManipul/ProgLed.xst" -ofn "D:/BENSI/LedManipul/ProgLed.syr" 
+xst -intstyle ise -ifn "D:/BENSI/LedManipul/ProgLed.xst" -ofn "D:/BENSI/LedManipul/ProgLed.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ProgLed.ucf -p xc6slx16-csg324-3 ProgLed.ngc ProgLed.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ProgLed_map.ncd ProgLed.ngd ProgLed.pcf 
+par -w -intstyle ise -ol high -mt off ProgLed_map.ncd ProgLed.ncd ProgLed.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ProgLed.twx ProgLed.ncd -o ProgLed.twr ProgLed.pcf -ucf ProgLed.ucf 
+xst -intstyle ise -ifn "D:/BENSI/LedManipul/ProgLed.xst" -ofn "D:/BENSI/LedManipul/ProgLed.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ProgLed.ucf -p xc6slx16-csg324-3 ProgLed.ngc ProgLed.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ProgLed_map.ncd ProgLed.ngd ProgLed.pcf 
+par -w -intstyle ise -ol high -mt off ProgLed_map.ncd ProgLed.ncd ProgLed.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ProgLed.twx ProgLed.ncd -o ProgLed.twr ProgLed.pcf -ucf ProgLed.ucf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ProgLed.ucf -p xc6slx16-csg324-3 ProgLed.ngc ProgLed.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ProgLed_map.ncd ProgLed.ngd ProgLed.pcf 
+par -w -intstyle ise -ol high -mt off ProgLed_map.ncd ProgLed.ncd ProgLed.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ProgLed.twx ProgLed.ncd -o ProgLed.twr ProgLed.pcf -ucf ProgLed.ucf 
+bitgen -intstyle ise -f ProgLed.ut ProgLed.ncd 
+xst -intstyle ise -ifn "D:/BENSI/LedManipul/ProgLed.xst" -ofn "D:/BENSI/LedManipul/ProgLed.syr" 
+xst -intstyle ise -ifn "D:/BENSI/LedManipul/ProgLed.xst" -ofn "D:/BENSI/LedManipul/ProgLed.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ProgLed.ucf -p xc6slx16-csg324-3 ProgLed.ngc ProgLed.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ProgLed_map.ncd ProgLed.ngd ProgLed.pcf 
+par -w -intstyle ise -ol high -mt off ProgLed_map.ncd ProgLed.ncd ProgLed.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ProgLed.twx ProgLed.ncd -o ProgLed.twr ProgLed.pcf -ucf ProgLed.ucf 
+bitgen -intstyle ise -f ProgLed.ut ProgLed.ncd 
+xst -intstyle ise -ifn "D:/BENSI/LedManipul/ProgLed.xst" -ofn "D:/BENSI/LedManipul/ProgLed.syr" 
+xst -intstyle ise -ifn "D:/BENSI/LedManipul/ProgLed.xst" -ofn "D:/BENSI/LedManipul/ProgLed.syr" 
+xst -intstyle ise -ifn "D:/BENSI/LedManipul/ProgLed.xst" -ofn "D:/BENSI/LedManipul/ProgLed.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ProgLed.ucf -p xc6slx16-csg324-3 ProgLed.ngc ProgLed.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ProgLed_map.ncd ProgLed.ngd ProgLed.pcf 
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ProgLed_map.ncd ProgLed.ngd ProgLed.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ProgLed.ucf -p xc6slx16-csg324-3 ProgLed.ngc ProgLed.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ProgLed_map.ncd ProgLed.ngd ProgLed.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ProgLed.ucf -p xc6slx16-csg324-3 ProgLed.ngc ProgLed.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ProgLed_map.ncd ProgLed.ngd ProgLed.pcf 
+par -w -intstyle ise -ol high -mt off ProgLed_map.ncd ProgLed.ncd ProgLed.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ProgLed.twx ProgLed.ncd -o ProgLed.twr ProgLed.pcf -ucf ProgLed.ucf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ProgLed.ucf -p xc6slx16-csg324-3 ProgLed.ngc ProgLed.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ProgLed_map.ncd ProgLed.ngd ProgLed.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ProgLed.ucf -p xc6slx16-csg324-3 ProgLed.ngc ProgLed.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ProgLed_map.ncd ProgLed.ngd ProgLed.pcf 
+xst -intstyle ise -ifn "D:/BENSI/LedManipul/ProgLed.xst" -ofn "D:/BENSI/LedManipul/ProgLed.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ProgLed.ucf -p xc6slx16-csg324-3 ProgLed.ngc ProgLed.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ProgLed_map.ncd ProgLed.ngd ProgLed.pcf 
+xst -intstyle ise -ifn "D:/BENSI/LedManipul/ProgLed.xst" -ofn "D:/BENSI/LedManipul/ProgLed.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ProgLed.ucf -p xc6slx16-csg324-3 ProgLed.ngc ProgLed.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ProgLed_map.ncd ProgLed.ngd ProgLed.pcf 
+xst -intstyle ise -ifn "D:/BENSI/LedManipul/ProgLed.xst" -ofn "D:/BENSI/LedManipul/ProgLed.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ProgLed.ucf -p xc6slx16-csg324-3 ProgLed.ngc ProgLed.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ProgLed_map.ncd ProgLed.ngd ProgLed.pcf 
+xst -intstyle ise -ifn "D:/BENSI/LedManipul/ProgLed.xst" -ofn "D:/BENSI/LedManipul/ProgLed.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ProgLed.ucf -p xc6slx16-csg324-3 ProgLed.ngc ProgLed.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ProgLed_map.ncd ProgLed.ngd ProgLed.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ProgLed.ucf -p xc6slx16-csg324-3 ProgLed.ngc ProgLed.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ProgLed_map.ncd ProgLed.ngd ProgLed.pcf 
+xst -intstyle ise -ifn "D:/BENSI/LedManipul/ProgLed.xst" -ofn "D:/BENSI/LedManipul/ProgLed.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ProgLed.ucf -p xc6slx16-csg324-3 ProgLed.ngc ProgLed.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ProgLed_map.ncd ProgLed.ngd ProgLed.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ProgLed.ucf -p xc6slx16-csg324-3 ProgLed.ngc ProgLed.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ProgLed_map.ncd ProgLed.ngd ProgLed.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ProgLed.ucf -p xc6slx16-csg324-3 ProgLed.ngc ProgLed.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ProgLed_map.ncd ProgLed.ngd ProgLed.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ProgLed.ucf -p xc6slx16-csg324-3 ProgLed.ngc ProgLed.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ProgLed_map.ncd ProgLed.ngd ProgLed.pcf 
+par -w -intstyle ise -ol high -mt off ProgLed_map.ncd ProgLed.ncd ProgLed.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ProgLed.twx ProgLed.ncd -o ProgLed.twr ProgLed.pcf -ucf ProgLed.ucf 
+xst -intstyle ise -ifn "D:/BENSI/LedManipul/ProgLed.xst" -ofn "D:/BENSI/LedManipul/ProgLed.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ProgLed.ucf -p xc6slx16-csg324-2 ProgLed.ngc ProgLed.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ProgLed_map.ncd ProgLed.ngd ProgLed.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ProgLed.ucf -p xc6slx16-csg324-2 ProgLed.ngc ProgLed.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ProgLed_map.ncd ProgLed.ngd ProgLed.pcf 
+par -w -intstyle ise -ol high -mt off ProgLed_map.ncd ProgLed.ncd ProgLed.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml ProgLed.twx ProgLed.ncd -o ProgLed.twr ProgLed.pcf -ucf ProgLed.ucf 
+bitgen -intstyle ise -f ProgLed.ut ProgLed.ncd 
+xst -intstyle ise -ifn "D:/BENSI/LedManipul/ProgLed.xst" -ofn "D:/BENSI/LedManipul/ProgLed.syr" 
+xst -intstyle ise -ifn "D:/BENSI/LedManipul/ProgLed.xst" -ofn "D:/BENSI/LedManipul/ProgLed.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ProgLed.ucf -p xc6slx16-csg324-2 ProgLed.ngc ProgLed.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ProgLed_map.ncd ProgLed.ngd ProgLed.pcf 

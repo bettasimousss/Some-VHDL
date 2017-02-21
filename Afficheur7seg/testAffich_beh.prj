@@ -1,0 +1,3 @@
+vhdl work "DECOD.vhd"
+vhdl work "afficheur.vhd"
+vhdl work "testAffich.vhd"

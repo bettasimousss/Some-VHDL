@@ -1,0 +1,23 @@
+Running: C:\Xilinx\13.1x\ISE_DS\ISE\bin\nt\unwrapped\fuse.exe -intstyle ise -incremental -o D:/BENSI/Afficheur7seg/testAffich_isim_beh.exe -prj D:/BENSI/Afficheur7seg/testAffich_beh.prj work.testAffich 
+ISim O.40d (signature 0x79f3f3a8)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Parsing VHDL file "D:/BENSI/Afficheur7seg/DECOD.vhd" into library work
+Parsing VHDL file "D:/BENSI/Afficheur7seg/afficheur.vhd" into library work
+Parsing VHDL file "D:/BENSI/Afficheur7seg/testAffich.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 139236 KB
+Fuse CPU Usage: 124 ms
+Using precompiled package standard from library std
+Using precompiled package std_logic_1164 from library ieee
+Compiling architecture behavioral of entity decod [decod_default]
+Compiling architecture behavioral of entity afficheur [afficheur_default]
+Compiling architecture behavior of entity testaffich
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 7 VHDL Units
+Built simulation executable D:/BENSI/Afficheur7seg/testAffich_isim_beh.exe
+Fuse Memory Usage: 146000 KB
+Fuse CPU Usage: 155 ms

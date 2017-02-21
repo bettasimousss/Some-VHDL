@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# PlanAhead v13.1
+# Build 117799 by hdbuild on Thu Feb 17 11:38:00 PST 2011
+# Start of session at: Thu Mar 03 10:16:09 2016
+# Process ID: 3404
+# Log file: D:/BENSI/Afficheur7seg/planAhead_run_1/planAhead.log
+# Journal file: D:/BENSI/Afficheur7seg/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui -source D:/BENSI/Afficheur7seg/pa.fromNetlist.tcl
+exit

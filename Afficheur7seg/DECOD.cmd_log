@@ -1,0 +1,8 @@
+xst -intstyle ise -ifn "D:/BENSI/Afficheur7seg/DECOD.xst" -ofn "D:/BENSI/Afficheur7seg/DECOD.syr" 
+xst -intstyle ise -ifn "D:/BENSI/Afficheur7seg/DECOD.xst" -ofn "D:/BENSI/Afficheur7seg/DECOD.syr" 
+xst -intstyle ise -ifn "D:/BENSI/Afficheur7seg/DECOD.xst" -ofn "D:/BENSI/Afficheur7seg/DECOD.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 DECOD.ngc DECOD.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o DECOD_map.ncd DECOD.ngd DECOD.pcf 
+par -w -intstyle ise -ol high -t 1 DECOD_map.ncd DECOD.ncd DECOD.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml DECOD.twx DECOD.ncd -o DECOD.twr DECOD.pcf 
+xst -intstyle ise -ifn "D:/BENSI/Afficheur7seg/DECOD.xst" -ofn "D:/BENSI/Afficheur7seg/DECOD.syr" 

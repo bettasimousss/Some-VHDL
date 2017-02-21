@@ -1,0 +1,31 @@
+NET "LED[6]" LOC=R11;
+NET "LED[5]" LOC=N11;
+NET "LED[4]" LOC=M11;
+NET "LED[3]" LOC=V15;
+NET "LED[2]" LOC=U15;
+NET "LED[1]" LOC=V16;
+NET "LED[0]" LOC=U16;
+
+NET "con" LOC=C4;
+NET "con" CLOCK_DEDICATED_ROUTE = FALSE;
+
+NET "data[6]" LOC=V8;
+NET "data[5]" LOC=U8;
+NET "data[4]" LOC=N8;
+NET "data[3]" LOC=M8;
+NET "data[2]" LOC=V9;
+NET "data[1]" LOC=T9;
+NET "data[0]" LOC=T10;
+
+NET "affich[6]" LOC=T17;
+NET "affich[5]" LOC=T18;
+NET "affich[4]" LOC=U17;
+NET "affich[3]" LOC=U18;
+NET "affich[2]" LOC=M14;
+NET "affich[1]" LOC=N14;
+NET "affich[0]" LOC=L14;
+
+NET "an[3]" LOC=N16;
+NET "an[2]" LOC=N15;
+NET "an[1]" LOC=P18;
+NET "an[0]" LOC=P17;

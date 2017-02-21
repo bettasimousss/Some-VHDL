@@ -1,0 +1,85 @@
+--------------------------------------------------------------------------------
+Release 13.1 Trace  (nt)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\13.1x\ISE_DS\ISE\bin\nt\unwrapped\trce.exe -intstyle ise -v 3 -s 4 -n
+3 -fastpaths -xml DECOD.twx DECOD.ncd -o DECOD.twr DECOD.pcf
+
+Design file:              DECOD.ncd
+Physical constraint file: DECOD.pcf
+Device,package,speed:     xc3s500e,fg320,-4 (PRODUCTION 1.27 2011-02-03)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+INFO:Timing:3390 - This architecture does not support a default System Jitter 
+   value, please add SYSTEM_JITTER constraint to the UCF to modify the Clock 
+   Uncertainty calculation.
+INFO:Timing:3389 - This architecture does not support 'Discrete Jitter' and 
+   'Phase Error' calculations, these terms will be zero in the Clock 
+   Uncertainty calculation.  Please make appropriate modification to 
+   SYSTEM_JITTER to account for the unsupported Discrete Jitter and Phase 
+   Error.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+Data<0>        |seg<1>         |    6.441|
+Data<0>        |seg<2>         |    6.444|
+Data<0>        |seg<3>         |    6.714|
+Data<0>        |seg<4>         |    6.693|
+Data<0>        |seg<5>         |    6.549|
+Data<0>        |seg<6>         |    6.552|
+Data<1>        |seg<0>         |    6.005|
+Data<1>        |seg<1>         |    6.063|
+Data<1>        |seg<2>         |    6.900|
+Data<1>        |seg<3>         |    6.276|
+Data<1>        |seg<4>         |    7.154|
+Data<1>        |seg<5>         |    7.184|
+Data<1>        |seg<6>         |    7.160|
+Data<2>        |seg<0>         |    6.056|
+Data<2>        |seg<1>         |    6.087|
+Data<2>        |seg<2>         |    6.965|
+Data<2>        |seg<3>         |    6.325|
+Data<2>        |seg<4>         |    7.154|
+Data<2>        |seg<5>         |    7.239|
+Data<2>        |seg<6>         |    7.280|
+Data<3>        |seg<0>         |    6.320|
+Data<3>        |seg<1>         |    7.116|
+Data<3>        |seg<2>         |    6.415|
+Data<3>        |seg<3>         |    7.394|
+Data<3>        |seg<4>         |    6.629|
+Data<3>        |seg<5>         |    6.532|
+Data<3>        |seg<6>         |    6.566|
+---------------+---------------+---------+
+
+
+Analysis completed Thu Mar 03 09:36:50 2016 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 114 MB
+
+
+

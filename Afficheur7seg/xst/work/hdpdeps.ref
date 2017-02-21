@@ -1,0 +1,12 @@
+V3 8
+FL D:/BENSI/Afficheur7seg/afficheur.vhd 2016/03/03.09:57:02 O.40d
+EN work/afficheur 1456995673 FL D:/BENSI/Afficheur7seg/afficheur.vhd \
+      PB ieee/std_logic_1164 1296775758
+AR work/afficheur/Behavioral 1456995674 \
+      FL D:/BENSI/Afficheur7seg/afficheur.vhd EN work/afficheur 1456995673 \
+      CP DECOD
+FL D:/BENSI/Afficheur7seg/DECOD.vhd 2016/03/03.09:36:27 O.40d
+EN work/DECOD 1456994994 FL D:/BENSI/Afficheur7seg/DECOD.vhd \
+      PB ieee/std_logic_1164 1296775758
+AR work/DECOD/Behavioral 1456994995 \
+      FL D:/BENSI/Afficheur7seg/DECOD.vhd EN work/DECOD 1456994994

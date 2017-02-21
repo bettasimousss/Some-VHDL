@@ -1,0 +1,35 @@
+//! **************************************************************************
+// Written by: Map O.40d on Thu Mar 10 10:15:33 2016
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "affich<6>" LOCATE = SITE "T17" LEVEL 1;
+COMP "an<0>" LOCATE = SITE "P17" LEVEL 1;
+COMP "an<1>" LOCATE = SITE "P18" LEVEL 1;
+COMP "an<2>" LOCATE = SITE "N15" LEVEL 1;
+COMP "an<3>" LOCATE = SITE "N16" LEVEL 1;
+COMP "data<0>" LOCATE = SITE "T10" LEVEL 1;
+COMP "data<1>" LOCATE = SITE "T9" LEVEL 1;
+COMP "data<2>" LOCATE = SITE "V9" LEVEL 1;
+COMP "data<3>" LOCATE = SITE "M8" LEVEL 1;
+COMP "data<4>" LOCATE = SITE "N8" LEVEL 1;
+COMP "data<5>" LOCATE = SITE "U8" LEVEL 1;
+COMP "con" LOCATE = SITE "C4" LEVEL 1;
+PIN con_pin<0> = BEL "con" PINNAME PAD;
+PIN "con_pin<0>" CLOCK_DEDICATED_ROUTE = FALSE;
+COMP "data<6>" LOCATE = SITE "V8" LEVEL 1;
+COMP "LED<0>" LOCATE = SITE "U16" LEVEL 1;
+COMP "LED<1>" LOCATE = SITE "V16" LEVEL 1;
+COMP "LED<2>" LOCATE = SITE "U15" LEVEL 1;
+COMP "LED<3>" LOCATE = SITE "V15" LEVEL 1;
+COMP "LED<4>" LOCATE = SITE "M11" LEVEL 1;
+COMP "LED<5>" LOCATE = SITE "N11" LEVEL 1;
+COMP "LED<6>" LOCATE = SITE "R11" LEVEL 1;
+COMP "affich<0>" LOCATE = SITE "L14" LEVEL 1;
+COMP "affich<1>" LOCATE = SITE "N14" LEVEL 1;
+COMP "affich<2>" LOCATE = SITE "M14" LEVEL 1;
+COMP "affich<3>" LOCATE = SITE "U18" LEVEL 1;
+COMP "affich<4>" LOCATE = SITE "U17" LEVEL 1;
+COMP "affich<5>" LOCATE = SITE "T18" LEVEL 1;
+SCHEMATIC END;
+

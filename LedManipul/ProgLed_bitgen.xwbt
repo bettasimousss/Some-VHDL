@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=D:\BENSI\LedManipul\ProgLed.ncd
+OUTFILE=D:\BENSI\LedManipul\ProgLed.bit
+FAMILY=Spartan6
+PART=xc6slx16-2csg324
+WORKINGDIR=D:\BENSI\LedManipul
+LICENSE=WebPack
+USER_INFO=210818297_0_0_559
